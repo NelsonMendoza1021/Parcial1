@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WebDeveloper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function agregarFila() {
+          // Obtener la referencia a la tabla
+          var tabla = document.getElementById("tbldata");
+    
+          // Crear una nueva fila
+          var fila = tabla.insertRow();
+    
+          // Crear celdas en la fila
+          var celda1 = fila.insertCell(0);
+          var celda2 = fila.insertCell(1);
+          var celad3 = fila.insertCell(2);
+    
+          // Obtener los valores de los campos de entrada
+          var valor1 = document.getElementById("name").value;
+    
+          // Asignar los valores a las celdas
+          celda1.innerHTML = valor1;
+          celda2.innerHTML = 0;
+          celad3.innerHTML = <a href='#'>Editar</a>
+        }
+    </script>
+</head>
+<body>
+
+    <h2><span class="span1">Web</span><span class="span2">Developer</span></h2>
+        <section class="form_afiliation">
+            <h5>formulario de afiliación</h5>
+            <form class = "formulario">
+                <input class="controls" type="text" id="name" placeholder="Nombre completo"></input>
+                <input class="controls" type="enail" id="email" placeholder="Email"></input>
+                <input class="controls" type="text" id="phone" placeholder="text"></input>
+                <div class="div1">
+                    <input class="controls" type="text" id="likes"></input>
+                    <button class="btn1" onclick="agregarFila()">Gusto</button>
+                </div>
+            </form>
+            <div class="container"> 
+                <table id = "tbldata">
+                    <thead>
+                        <tr>
+                            <th>gusto</th>
+                            <th>%</th>
+                            <th>edit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gatos</td>
+                            <td>0</td>
+                            <td><a href='#''>Editar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><a href="https://sites.google.com/view/dweb1-uis/home?authuser=0" target="_blank">Ir a sitio de P web</a></p>
+        </section>
+</body>
+</html>
