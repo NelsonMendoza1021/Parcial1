@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-family: 'calibri';
+    color:rgb(77 79 82)
+}
+h5{
+    text-align: center;
+}
+
+.span1{
+    font-weight: 530;
+}
+.span2{
+    font-weight: 200;
+
+}
+
+body{
+    padding: 30px;
+    background: rgb(232 236 239);
+}
+
+section{
+    background: white;
+    padding: 20px;
+}
+
+.form_afiliation{
+    width: 219px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:rgb(113 108 104)
+}
+.controls{
+    width: 100%;
+    padding: 3px;
+    margin-top: 12px;
+    border: 2px solid rgb(210 212 211);
+    font-family: 'calibri';
+}
+.div1{
+    display: flex;
+}
+.btn1{
+    background: white;
+    border: 1px solid rgb(109 127 113);
+    color: rgb(109 127 113);
+    margin-top: 12px;
+    font-family: 'calibri';
+}
+.form_afiliation p{
+    height: 40px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.form_afiliation a{
+    text-decoration: blue;
+}
+
+.container{
+    margin-top: 12px;
+}
+
+table{
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    padding: 15px 10px;
+    font-weight: 700;
+    border: solid 1px rgb(225 225 225);
+}
+
+td{
+    padding: 15px;
+    border: solid 1px rgb(225 225 225);
+}
